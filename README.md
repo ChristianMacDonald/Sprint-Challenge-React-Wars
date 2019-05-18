@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a Javascript library that was made in an attempt to make it easier to build reactive user interfaces. React components can store an internal state, and when that state changes, React automatically rerenders all components affected by said state, making it "reactive".
+
 - [ ] What does it mean to _think_ in react?
+
+Divide UI components into a hierarchy. Build a static version of the UI. Find out what the smallest amount of state you can store and still have all the functionality you need is. Decide which component should hold the state. Finally pass down whatever state might need to be changed to the components responsible for changing it, etc.
 
 - [ ] Describe state.
 
+State is an object that a React component can have stored inside of it that keeps track of certain values the developer needs to use in order to determine how to render the data.
+
 - [ ] Describe props.
+
+Props is an object that gets passed as an argument to either a functional component or a class component's constructor. It contains whatever data the developer chooses to pass down to the component. Props allows components to share state data or function handlers for instance.
 
 ## Project Set Up
 
