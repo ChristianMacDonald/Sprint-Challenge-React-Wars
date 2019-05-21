@@ -52,8 +52,8 @@ class App extends Component {
                 <ul className="CharacterList">
                     {this.state.starwarsChars.map(char => <li className="Character" key={char.name}>{char.name}</li>)}
                 </ul>
-                <button onClick={this.goToNextPage}>Next</button>
                 <button onClick={this.goToPreviousPage}>Previous</button>
+                <button onClick={this.goToNextPage}>Next</button>
             </div>
         );
     }
